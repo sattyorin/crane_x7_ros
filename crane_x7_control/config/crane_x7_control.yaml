@@ -4,7 +4,7 @@ joint_state_controller:
   publish_rate: 250
 
 arm_controller:
-  type: "position_controllers/JointTrajectoryController"
+  type: "velocity_controllers/JointTrajectoryController"
   publish_rate: 250
   joints:
     - crane_x7_shoulder_fixed_part_pan_joint
